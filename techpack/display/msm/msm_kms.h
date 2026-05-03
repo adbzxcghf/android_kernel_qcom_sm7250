@@ -21,6 +21,7 @@
 
 #include <linux/clk.h>
 #include <linux/regulator/consumer.h>
+#include <uapi/drm/msm_drm_iris.h>
 
 #include "msm_drv.h"
 
