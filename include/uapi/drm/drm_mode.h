@@ -126,7 +126,7 @@ extern "C" {
 #define DRM_MODE_FLAG_VSYNCE_SOURCE_MASK            (0xf<<25)
 #endif /*OPLUS_FEATURE_ADFR*/
 
-#else /*OPLUS_FEATURE_ADFR*/
+#ifdef /*OPLUS_FEATURE_ADFR*/
 #define  DRM_MODE_FLAG_ALL	(DRM_MODE_FLAG_PHSYNC |		\
 				 DRM_MODE_FLAG_NHSYNC | 	\
 				 DRM_MODE_FLAG_PVSYNC | 	\
